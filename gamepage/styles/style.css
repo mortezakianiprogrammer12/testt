@@ -1,0 +1,197 @@
+@font-face {
+  font-family: vazirNormal;
+  src: url("../fonts/vazir.eot");
+  src: url("../fonts/vazir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/vazir.woff2") format("woff2"),
+    url("../fonts/vazir.woff") format("woff"),
+    url("../fonts/vazir.ttf") format("truetype");
+  font-weight: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: vazirNormal;
+}
+/* media max-width: 575.98px dropdown-menu1&2 carousel-caption button & h3 */
+
+@media (max-width: 575.98px) {
+  .dropdown > .dropdown-menu1 {
+    width: 300px;
+  }
+  .dropdown > .dropdown-menu2 {
+    width: 360px;
+  }
+  .carousel-caption h3 {
+    font-size: 17px;
+  }
+  .carousel-caption button {
+    font-size: 15px;
+  }
+
+  #footer {
+    height: 840px;
+    background-color: #242124;
+  }
+  .search-box {
+    width: 130px;
+  }
+ 
+}
+/* media min-width: 575px dropdown-menu1&2
+ carousel-caption h3  */
+ @media (max-width: 400px) {
+
+  .contect {
+    height: 750px;
+  }
+
+}
+@media (min-width: 400px) {
+
+  .contect {
+    height: 650px;
+  }
+
+}
+@media (min-width: 575px) {
+  .dropdown > .dropdown-menu1 {
+    width: 520px;
+  }
+  .dropdown > .dropdown-menu2 {
+    width: 520px;
+  }
+  .carousel-caption h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  #footer {
+    height: 700px;
+    background-color: #242124;
+  }
+}
+/* media max-width: 768.98px contect */
+
+@media (max-width: 768.98px) {
+  #footer .footer-title {
+    text-align: right;
+  }
+  #footer .footer-item input {
+    width: 360px;
+    text-align: right;
+    float: right;
+    margin-top: 0 ;
+  }
+  #footer .aboutus-content{
+    text-align: right;
+  }
+}
+@media (min-width: 768px) {
+  .dropdown > .dropdown-menu1 {
+    width: 400px;
+  }
+  .dropdown > .dropdown-menu2 {
+    width: 530px;
+  }
+  .nav-link-row:hover {
+    border-bottom: 4px solid red;
+    transform: scale(1.1);
+  }
+  .Components-menu-link a:hover {
+    margin-right: 10px;
+    transform: scale(1.1);
+  }
+  .contect {
+    height: 530px;
+  }
+  #footer {
+    height: 500px;
+    background-color: #242124;
+  }
+  #footer .footer-title {
+    text-align: right;
+  }
+  #footer .footer-item input {
+    width: 360px;
+    text-align: right;
+    float: right;
+  }
+}
+
+/* media min-width: 768px dropdown-menu1&2 
+nav-link-row:hover
+Components-menu-link a:hover
+*/
+@media (min-width: 991px) {
+  .dropdown > .dropdown-menu2 {
+    width: 740px;
+  }
+  .contect {
+    height: 480px;
+  }
+}
+
+/* search box */
+.search-box input:placeholder-shown {
+  font-size: 16px;
+  font-weight: bold;
+}
+@media (min-width: 1200px) {
+  #footer {
+    height: 500px;
+    background-color: #242124;
+  }
+  #footer .footer-title {
+    text-align: center;
+  }
+  #footer .footer-item input {
+    width: 360px;
+    text-align: right;
+    float: none;
+  }
+
+  #footer {
+    height: 330px;
+    background-color: #242124;
+  }
+}
+/* nav */
+
+.btn-dl a .search-box {
+  width: 200px;
+}
+.dropdown {
+  padding: 3px 0 5px 3px;
+}
+.dropdown .title {
+  font-size: 20px;
+}
+.dropdown-menu {
+  opacity: 90%;
+  position: relative;
+}
+.dropdown-menu a {
+  font-size: 17px;
+  font-family: vazirNormal;
+}
+.dropdown-menu1 {
+  width: 430px;
+}
+.img-menu-game {
+  width: 270px;
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+}
+.dropdown-menu2 {
+  width: 830px;
+}
+.img-menu-game2 {
+  width: 300px;
+  position: absolute;
+  bottom: 2px;
+  left: 2px;
+}
+
+.font-size-family {
+  font-family: vazirNormal;
+}
